@@ -1,0 +1,35 @@
+
+body{
+    background-color: #ffffff;
+    padding-top: 100px;
+    margin-left: 40%;
+}
+
+
+form input{
+    text-align: center;
+    font-size: 18px;
+    padding: 16px 0;
+    border: 1px solid #000;
+}
+form button {
+    background-color: #000;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    border: 1px solid;
+    cursor: pointer;
+    padding: 16px;
+
+}
+
+li{
+
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+.before {
+    text-decoration: line-through;
+}
