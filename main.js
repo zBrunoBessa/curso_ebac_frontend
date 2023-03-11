@@ -1,11 +1,15 @@
 const alunos = [
-    { nome: "Bruno", nota: 7.5 },
-    { nome: "Leticia", nota: 5.9 },
-    { nome: "John", nota: 6.8 },
-    { nome: "Paulo", nota: 9.2 },
-    { nome: "Amanda", nota: 4.5 }
-];
-
-const alunosAprovados = alunos.filter(aluno => aluno.nota >= 6);
-
-console.log(alunosAprovados);
+    { nome: 'Aline', nota: 9 },
+    { nome: 'Pedro', nota: 5 },
+    { nome: 'Leticia', nota: 7 },
+    { nome: 'Bruno', nota: 6 },
+    { nome: 'Jorge', nota: 8 }
+]
+function notas() {
+    for (let i = 0; i < alunos.length; i++) {
+        if(alunos[i].nota >= 6) {
+            console.log('aluno '+alunos[i].nome + ' passou com nota: ' + alunos[i].nota)
+        }
+    }
+}
+notas();
